@@ -1,3 +1,6 @@
 *~
 .import/
 logs/
+*.exe
+*.x86_64
+
