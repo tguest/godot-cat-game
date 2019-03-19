@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/Yum.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_top = 205.417
+margin_right = 1034.0
+margin_bottom = 367.417
+color = Color( 0.27451, 0.541176, 0.643137, 0.639216 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="ColorRect"]
+position = Vector2( 500, 87.16 )
+texture = ExtResource( 1 )
+
